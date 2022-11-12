@@ -6,10 +6,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 
 ## Final Products
-!["Full Screen"](./docs/Full Screen.png)
-!["Full Screen with Error"](./docs/Full Screen-Error Msg.png)
-!["Full Screen with Adding Tweet"](./docs/Full Screen-Adding New Tweet.png)
-!["Phone Screen"](./docs/Phone Screen.png)
+!["Full Screen"](./docs/FullScreen.png)
+!["Full Screen with Error"](./docs/FullScreen_error.png)
+!["Full Screen with Adding Tweet"](./docs/FullScreen_newTweet.png)
+!["Phone Screen"](./docs/PhoneScreen.png)
 
 ## Getting Started
 
