@@ -1,14 +1,19 @@
+main.container {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 .new-tweet {
-  display: flex;
-  width: 90%;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 5%;
+  width: 100%;
 }
 
 #new-tweet-form {
   display: flex;
   flex-direction: column;
+}
+
+.new-tweet label {
+  color: 	#808080;
 }
 
 #tweet-text {
@@ -17,7 +22,7 @@
   background-color: #F4F1EC;
   border: hidden;
   border-bottom: 3px solid black;
-  margin-bottom: 3px;
+  resize: none;
 }
 
 .new-tweet-footer {
@@ -30,14 +35,13 @@
 }
 
 #submit {
-  width: 15%;
+  width: 80px;
   background-color: #4056A1;
   color: #F4F1EC;
   border-style: groove;
+  font-size: 16px;
 }
 
 output.counter.overLengthLimit {
   color:red;
 }
-
-

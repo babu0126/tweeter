@@ -12,6 +12,11 @@ nav {
   position: fixed;
 }
 
+.logo {
+  font-family: "Bungee", cursive;
+  font-size: 1.15em;
+}
+
 .write-a-tweet {
   display: flex;
   flex-direction: column;
@@ -21,7 +26,36 @@ nav {
   gap: 0;
 }
 
-.logo {
-  font-family: "Bungee", cursive;
-  font-size: 1.15em;
+.fa-angles-down {
+  background-color: transparent;
+  color: red;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.fa-angles-down:hover {
+  color: red;
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(+10px);
+  }
+}
+
+
+@media (max-width: 850px) {
+  nav {
+    background-color: #FFA500;
+    background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png);
+    position: relative;
+    height: 100px;
+  }
 }

@@ -6,7 +6,6 @@ $(document).ready(function() {
     // $(this).siblings('counter') WHY DOESN'T WORK
 
     // console.log(inputCharLength);
-    console.log(siblingCounter);
 
     if (inputCharLength > maxTweetLength) {
       siblingCounter.addClass('overLengthLimit');
